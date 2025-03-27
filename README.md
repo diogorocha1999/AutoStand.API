@@ -1,7 +1,9 @@
 📌 Project Overview
+
 AutoStand is a comprehensive vehicle dealership management system designed to streamline inventory management, customer relations, and sales tracking for automotive businesses.
 
 🚀 Features
+
 Customer Management: Track customer details, purchases, and interactions
 
 Inventory Control: Monitor vehicle stock and movement history
@@ -11,6 +13,7 @@ Sales Tracking: Record transactions and generate reports
 Data Integrity: Soft-delete functionality for all entities
 
 🛠️ Database Schema
+
 The system uses a SQL Server database with the following main tables:
 
 Customers (dbo.Customers)
@@ -43,6 +46,7 @@ Supplier information
 Timestamps for all actions
 
 🔧 Setup Instructions
+
 Database Setup:
 
 sql
@@ -60,6 +64,7 @@ Migrations:
 Copy
 dotnet ef database update
 📊 Sample Data
+
 The database comes pre-loaded with:
 
 5 sample customers
@@ -69,12 +74,3 @@ The database comes pre-loaded with:
 7 inventory movement records
 
 Realistic Portuguese NIFs and contact information
-
-🤝 Contribution Guidelines
-Fork the repository
-
-Create feature branches
-
-Submit pull requests with clear descriptions
-
-Follow existing code style patterns
