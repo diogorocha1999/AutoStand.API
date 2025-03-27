@@ -63,6 +63,7 @@ Migrations:
 
 Copy
 dotnet ef database update
+
 📊 Sample Data
 
 The database comes pre-loaded with:
